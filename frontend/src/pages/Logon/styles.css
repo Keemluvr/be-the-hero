@@ -23,3 +23,35 @@
     margin-bottom: 32px;
 }
 
+@media (min-width: 920px) and (max-width: 1200px) {
+    .logon-container section.form {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 920px) {
+    .logon-container {
+        flex-direction: column;
+    }
+
+    .logon-container section.form {
+        display: grid; 
+        margin: 0 auto;
+    } 
+    
+    .logon-container section.form .logo{
+        margin: 15px auto 0; 
+    }
+
+    
+    .logon-container section.form form {
+        margin: 60px 10px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-logon {
+        width: 90%;
+        height: auto;
+    }
+}

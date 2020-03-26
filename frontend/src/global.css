@@ -75,3 +75,11 @@ form textarea{
 .black-link svg{
    margin-right: 8px;
 }
+
+@media (max-width: 920px) {
+    .logo {
+        width: 6vw;
+        min-width: 200px;
+        margin-top: 20px;
+    }
+}

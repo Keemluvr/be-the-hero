@@ -40,14 +40,14 @@ export default function Register() {
     return(
         <div className="register-container">
             <div className="content">
-                <section>
-                    <img src={ logoImg } alt="Be The Hero"/>
+                <section className="info">
+                    <img className="logo" src={ logoImg } alt="Be The Hero"/>
                     <h1>Cadastro</h1>
                     <p>Fala seu cadastro, entre na plataforma e ajude as pessoas a encontrarem os casos da sua ONG.</p>
 
                     <Link className="black-link" to="/">
                         <FiArrowLeft size={16} color="#E02041"/>
-                        Não tenho cadastro
+                        Voltar para o home
                     </Link>
                 </section>
                 <form onSubmit={ handleRegister }>
