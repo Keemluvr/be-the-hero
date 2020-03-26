@@ -5,12 +5,6 @@
 
 <h2 align="center">Be The Hero</h2>
 
-<div align="center">
-
-</div>
-
----
-
 ## 📝 Sobre <a name = "about"></a>
 
 Be The Hero visa dar oportunidade para as pessoas ajudarem ONGS.
