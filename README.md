@@ -3,7 +3,7 @@
  <img width=250px height=110px src="./frontend/src/assets/logo.svg" alt="Project logo"></a>
 </p>
 
-<h2 align="center">Be The Hero</h2>
+<h2 align="center">Semana OmniStack 11.0 | RocketSeat</h2>
 
 ## 📝 Sobre <a name = "about"></a>
 
