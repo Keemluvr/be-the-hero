@@ -29,15 +29,17 @@ npm start
 
 ## 🚀 Visualizar <a name = "deployment"></a>
 
-Figma: [Visualizar protótipo](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1)  
-Screens: [Visualizar telas finalizadas]()  
+🖥 Protótipo                       | 💻 Frontend                          | 🗃 Backend
+---------------------------------- | -------------------------------------- | -----------------------------------------
+[Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1)   | [Netlify]()     | [Heroku](https://to-be-hero.herokuapp.com/ongs)
 
 ## ⛏️ Construído com <a name = "built_using"></a>
 
-- [SQLite](https://www.sqlite.org/index.html) - Banco de Dados
-- [Express](https://expressjs.com/) - Framework do servidor
-- [React](https://pt-br.reactjs.org) - Biblioteca javascript
-- [NodeJs](https://nodejs.org/en/) - Ambiente do servidor
-
+🗃 Backend                            | 💻 Frontend                               | 📱 Mobile
+---------------------------------- | -------------------------------------- | -----------------------------------------
+[NodeJs](https://nodejs.org/en/)   | [React](https://pt-br.reactjs.org)     | [React Native](https://reactnative.dev)
+[Express](https://expressjs.com/)  | [Axios](https://github.com/axios/axios)| [Expo](https://expo.io)
+[Knex](http://knexjs.org)          |                                        | [Axios](https://github.com/axios/axios)
+[Celebrate](http://knexjs.org)     |                                        |
 
 
