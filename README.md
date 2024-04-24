@@ -1,45 +1,60 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=250px height=110px src="./frontend/src/assets/logo.svg" alt="Project logo"></a>
-</p>
+# Be the Hero
 
-<h2 align="center">Semana OmniStack 11.0 | RocketSeat</h2>
+![GIF do projeto](https://github.com/Keemluvr/be-the-hero/blob/master/demo.gif)
 
-## 📝 Sobre <a name = "about"></a>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d8e232ff-8521-401c-8857-dddb990b505d/deploy-status)](https://app.netlify.com/sites/to-be-hero/deploys)
 
-Be The Hero visa dar oportunidade para as pessoas ajudarem ONGS.
+## Sobre este projeto
 
-## 🏁 Instalando <a name = "getting_started"></a>
+Esse foi projeto realizado durante a Semana OmniStack 11.0 da [RocketSeat](https://www.rocketseat.com.br/), o objetivo foi construir uma aplicação em React JS do zero, tendo assim o desenvolvimento do backend, frontend e mobile, onde visa dar oportunidade para as pessoas ajudarem ONGS.
 
-Baixe o projeto
-```
-git clone https://github.com/Keemluvr/be-the-hero.git
-```
+## Visualizar <a name = "deployment"></a>
 
-entre na pasta tanto do frontend, quanto do backend e instale as dependências
-```
-npm install
-```
+| 🖥 Protótipo                                                                                         | 💻 Frontend                                | 🗃 Backend                                       |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------ | ----------------------------------------------- |
+| [Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1) | [Netlify](https://to-be-hero.netlify.app/) | [Render](https://be-the-hero-gfqk.onrender.com) |
 
-Entre na pasta do backend e do frontend e execute-os
+## Pré-requisitos
 
-```
-npm start
-```
+Para instalar você vai precisar:
 
-## 🚀 Visualizar <a name = "deployment"></a>
+- Node.js
+- npm
 
-🖥 Protótipo                       | 💻 Frontend                          | 🗃 Backend
----------------------------------- | -------------------------------------- | -----------------------------------------
-[Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1)   | [Netlify]()     | [Heroku](https://to-be-hero.herokuapp.com/ongs)
+## Instalação
 
-## ⛏️ Construído com <a name = "built_using"></a>
+Instalação das dependências do projeto:
 
-🗃 Backend                            | 💻 Frontend                               | 📱 Mobile
----------------------------------- | -------------------------------------- | -----------------------------------------
-[NodeJs](https://nodejs.org/en/)   | [React](https://pt-br.reactjs.org)     | [React Native](https://reactnative.dev)
-[Express](https://expressjs.com/)  | [Axios](https://github.com/axios/axios)| [Expo](https://expo.io)
-[Knex](http://knexjs.org)          |                                        | [Axios](https://github.com/axios/axios)
-[Celebrate](http://knexjs.org)     |                                        |
+1. Entre no repositório do backend/frontend/mobile e execute o seguinte comando:  
+   `npm install`
 
+## Para produção:
 
+1. Entre no repositório do backend/frontend/mobile e execute o seguinte comando:  
+   `npm install`
+
+Executa o aplicativo no modo de desenvolvimento.
+
+Abra http://localhost:3000 para visualizá-lo no navegador.
+
+A página será recarregada se você fizer edições.
+
+## Desenvolvimento
+
+Para o desenvolvimento foi necessário:
+
+- Utilizar a biblioteca React JS
+- Utilizar Jest para a aplicação dos testes unitários e de integração
+- Utilizar o Celebrate para validação dos endpoints
+- Utilizar o React Router para o roteamento das páginas
+- Utilizar Expo Mail Composer para envio de emails
+- Utilizar o Expo para o desenvolvimento do app
+
+## Construído com
+
+| 🗃 Backend                         | 💻 Frontend                             | 📱 Mobile                               |
+| --------------------------------- | --------------------------------------- | --------------------------------------- |
+| [NodeJs](https://nodejs.org/en/)  | [React](https://pt-br.reactjs.org)      | [React Native](https://reactnative.dev) |
+| [Express](https://expressjs.com/) | [Axios](https://github.com/axios/axios) | [Expo](https://expo.io)                 |
+| [Knex](http://knexjs.org)         |                                         | [Axios](https://github.com/axios/axios) |
+| [Celebrate](http://knexjs.org)    |                                         |
